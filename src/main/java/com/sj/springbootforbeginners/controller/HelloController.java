@@ -1,6 +1,12 @@
 package com.sj.springbootforbeginners.controller;
 
+import com.sj.springbootforbeginners.model.User;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
 
 @RestController
 @RequestMapping("/beginners/api")
