@@ -3,8 +3,14 @@ server:
 spring:
   profiles:
     active: local
-
-
-
+  datasource:
+    url: jdbc:mysql://0.0.0.0:3306/firstDatabase
+    username: root
+    password: test-password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+    hibernate.ddl-auto: update
 
 
