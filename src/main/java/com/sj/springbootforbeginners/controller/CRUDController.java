@@ -10,7 +10,6 @@ import java.util.HashMap;
 @RestController
 @RequestMapping("/beginners/crud")
 public class CRUDController {
-
 	private HashMap<String, User> collection = new HashMap<>();
 
 	@PostMapping(value = "/createUser", produces = MediaType.APPLICATION_JSON_VALUE)
