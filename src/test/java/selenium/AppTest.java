@@ -1,0 +1,13 @@
+package selenium;
+
+import org.openqa.selenium.*;
+
+public class AppTest {
+
+    public static WebDriver driver;
+
+    @BeforeEachClass
+    public static void setupTest(){
+        System.setProperty("https://atlasauth.b2clogin.com/f50ebcfb-eadd-41d8-9099-a7049d073f5c/b2c_1a_atoproduction_atlas_susi/oauth2/v2.0/authorize?client_id=607d08d6-b63b-4735-ad82-05dfcff7efa4&redirect_uri=https%3A%2F%2Fwww.usvisascheduling.com%2Fsignin-aad-b2c_1&response_type=code%20id_token&scope=openid&state=OpenIdConnect.AuthenticationProperties%3DX06h3s-No1pUAwO_30IR5jr0gJb5GMXvZVkqwzJ6j4Qsuav0ozyTrMyH5WLggDx6uduI_vshYTw6BKLlDjCbw9sRFqJ5UxiIcBqSIb-aUEtkNByqdDKN-rPxt01A2-ZvQ8X4UklRdFn8nxSQZK0XR9X2KO3CWIX4MoQPMb9sez1cQE7o3VaIGoUjhEeyEarkiiVucVJ3HLtPQnFjkmT5rwIcBQnWYITyTAv8F1k2ipEFYS0QgtK4_inuo4GiDYkjJlCgg5PTIH445ZYaCwggpVr1LoeiUOQ6HKMXAW8Sr6YvVZcEOrKF8rb8hoNOynvGN-juiLm1VzDfSuM9spQthNeYXyEVGIAWBRaZAeUfxXTUTE55K3UmTEauHEQEsIaPqQ6nnfIahTNm9RpJ0j0zl--8VpjUZoualXh1WHpK90VdnaqPm-EZzqSIB9_vp11tGOAswtBzhYkVmOYzgqvOhGNob2BakcjiU49JfbX0qAQ9NaheimVPrP77f7fJVcHYXdIl3eVON2BPFfa93aRbzxsJcxZY53ysdR_TLi0TWqNrTxVlEhFik7j9HNOO5uKavjI-p4G6l5NOU5VLl6_8ZUsS2NRHYEDymOMQkd3FZzUeUE2w3Et_lDpVxFWtw1yw&response_mode=form_post&nonce=638636551330199267.ZDY3NDRjMGUtNzFkMC00N2RjLWFhMDUtNDdlNzU4NzhlOGFmM2Q5Y2YwOTYtNDc3Ni00MzQyLTlkYTYtOGEwY2NlMDIzY2Vi&ui_locales=en-US&x-client-SKU=ID_NET472&x-client-ver=6.35.0.0");
+    }
+}
