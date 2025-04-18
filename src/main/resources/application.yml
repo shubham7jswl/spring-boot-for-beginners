@@ -4,13 +4,31 @@ spring:
   profiles:
     active: local
   datasource:
-    url: jdbc:mysql://0.0.0.0:3306/firstDatabase
+    url: jdbc:mysql://localhost:3306/firstDatabase
     username: root
-    password: test-password
+    password: my-secret-pw
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     generate-ddl: true
     hibernate.ddl-auto: update
+
+
+#  datasource:
+#    url: jdbc:h2:mem:firstDatabase;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+#    username: root
+#    password: my-secret-pw
+#    driverClassName: org.h2.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+##    generate-ddl: true
+#    hibernate.ddl-auto: update
+
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/firstDatabase
+#    username: root
+#    password: my-secret-pw
+#  jpa:
+#    hibernate.ddl-auto: update
 
 
